@@ -1,0 +1,51 @@
+.img-back{
+ 
+    margin-top: 24px;
+    background-color: hsl(0, 0%, 90%);
+    float: left; 
+      
+}
+ img{
+  height: 550px;
+  float: left; 
+}
+
+
+@media screen and (max-width: 1000px) { 
+  .logo {
+      width: 30px;
+      top: 5px; 
+      left: 5px; 
+  }
+}
+
+.text {
+  position: absolute;
+  top: 74%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  color: white;
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif
+}
+.container{
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+}
+.container li a {
+  color:white;
+  display: inline;
+}
+
+
+a:hover {
+  font-weight: bold; 
+  text-decoration: underline;
+}

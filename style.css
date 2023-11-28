@@ -1,0 +1,79 @@
+.top{
+    background-color: white;
+}
+.content{
+    width: 20%;
+    height: 30px;
+    margin-top: 60px;
+    padding:-50px;
+    background-color: white;
+}
+.logo{
+    width:20%;
+    height:30px;
+    padding:-50px;
+    top: -50px;
+}
+
+.logo img{
+    height:30px;
+    top: -50px; 
+    border-bottom: 1px solid white;
+        border-top: 1px solid white;
+}
+    @media screen and (max-width: 1000px) { 
+        .logo {
+            width: 30px;
+            top: 5px; 
+            left: 5px; 
+
+        }
+
+    }
+
+      .navigation{
+        border-bottom: 1px solid grey;
+        border-top: 1px solid grey;
+        color: grey;
+        margin-top: -30px;
+        width: 1400px;
+        justify-content: center;
+        z-index: 999;
+        margin-right: 20px;
+        position: fixed;
+        background-color:white;
+        background-attachment: scroll;
+        
+    }
+    
+    a {
+        text-decoration: none; /* Премахваме подчертаването на линковете */
+        color:grey;
+      }
+    
+      a:hover {
+        color:black; 
+        font-weight: bold; 
+        text-decoration: underline;
+      }
+    
+    ul li{
+        display: inline;
+        font-family:'Courier New', Courier, monospace;
+        width:1400px;
+        line-height: 20px;
+        margin-right: 20px;
+        margin-left: 100px;
+    }
+
+    
+    @media screen and (max-width: 1000px) { 
+        .logo {
+            width: 30px;
+            top: 5px; 
+            left: 5px; 
+        }
+    }
+
+
+
